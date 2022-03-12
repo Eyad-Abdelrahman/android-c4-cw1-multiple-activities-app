@@ -5,7 +5,8 @@
     android:id="@+id/relativeLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E3D5D5"
+    android:background="#CABCFF"
+    android:backgroundTint="#C5A6FF"
     tools:context=".NewMainActivity2">
 
     <TextView
@@ -13,34 +14,23 @@
         android:layout_width="195dp"
         android:layout_height="49dp"
         android:layout_marginTop="16dp"
-        android:text="الطالب"
+        android:text="Student"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="194dp"
-        android:layout_height="199dp"
-        android:layout_marginTop="92dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="162dp"
         android:layout_height="71dp"
-        android:layout_marginTop="556dp"
-        android:text="العمر"
+        android:layout_marginTop="516dp"
+        android:text="Age"
         android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,32 +38,50 @@
         android:id="@+id/textView5"
         android:layout_width="312dp"
         android:layout_height="58dp"
-        android:textAlignment="textEnd"
+        android:layout_marginTop="416dp"
+        android:textAlignment="center"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="475dp"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="150dp"
         android:layout_height="71dp"
-        android:text="الاسم"
+        android:layout_marginTop="328dp"
+        android:text="Name"
         android:textAlignment="center"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="365dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="276dp"
         android:layout_height="53dp"
-        android:textAlignment="textEnd"
+        android:layout_marginTop="612dp"
+        android:textAlignment="center"
         android:textSize="34sp"
-        tools:layout_editor_absoluteX="86dp"
-        tools:layout_editor_absoluteY="642dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="333dp"
+        android:layout_height="213dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/eyad" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
